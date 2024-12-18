@@ -14,7 +14,7 @@
         align-items: center;
     }
 
-    header ul {
+    #menu-links {
         display: none;
         flex-direction: column;
         width: 100%;
@@ -26,13 +26,13 @@
         z-index: 1;
     }
 
-    ul li {
+    #menu-links li {
         text-align: end;
         width: 100%;
-        margin-right: 55px;
+        margin-left: 0px;
     }
 
-    header ul li a {
+    #menu-links li a {
         display: block;
         padding: 15px;
         width: 100%;
@@ -41,12 +41,12 @@
         transition: 0.35s;
     }
 
-    header ul li a:hover {
+    #menu-links li a:hover {
         font-size: 50px;
     }
 
-    ul.active {
-        display: flex;
+    #menu-links.active {
+        display: block;
     }
 
     .avatar img {
