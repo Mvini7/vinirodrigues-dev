@@ -1,0 +1,173 @@
+.skills {
+    background: linear-gradient(#1d1d1d, #272727);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.textoTecnologias {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    padding: 30px 100px;
+    top: 640px;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.textoTecnologias h1 {
+    color: #fbff1b;
+}
+
+.textoTecnologias hr {
+    width: 470px;
+    margin-top: 5px;
+}
+
+.html img {
+    height: 90px;
+}
+
+.css img {
+    height: 90px;
+}
+
+.javascript img {
+    height: 90px;
+}
+
+.bootstrap img {
+    height: 90px;
+}
+
+.tailwind img {
+    height: 90px;
+}
+
+.git img {
+    height: 90px;
+}
+
+.github img {
+    height: 90px;
+}
+
+.python img {
+    height: 90px;
+}
+
+.vercel img {
+    height: 90px;
+}
+
+.tecnologias {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.tecnologias p {
+    color: aliceblue;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
+.desenvolvimento {
+    margin-top: 50px;
+    display: flex;
+}
+
+.css, .javascript, .python {
+    margin-left: 100px;
+    background: linear-gradient(#fbff1b, #6e6f01);
+    box-shadow: 0px 1px 10px rgba(79, 79, 79, 0.898);
+    border-radius: 20px 0px;
+    padding: 7px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.html {
+    background: linear-gradient(#fbff1b, #6e6f01);
+    box-shadow: 0px 1px 10px rgba(79, 79, 79, 0.898);
+    border-radius: 20px 0px;
+    padding: 7px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bibliotecas {
+    margin-top: 50px;
+    display: flex;
+}
+
+.tailwind {
+    margin-left: 100px;
+    background: linear-gradient(#fbff1b, #6e6f01);
+    box-shadow: 0px 1px 10px rgba(79, 79, 79, 0.898);
+    border-radius: 20px 0px;
+    padding: 7px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bootstrap {
+    background: linear-gradient(#fbff1b, #6e6f01);
+    box-shadow: 0px 1px 10px rgba(79, 79, 79, 0.898);
+    border-radius: 20px 0px;
+    padding: 7px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.versionamento {
+    margin-top: 50px;
+    display: flex;
+}
+
+.github, .vercel {
+    margin-left: 100px;
+    background: linear-gradient(#fbff1b, #6e6f01);
+    box-shadow: 0px 1px 10px rgba(79, 79, 79, 0.898);
+    border-radius: 20px 0px;
+    padding: 7px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.git {
+    background: linear-gradient(#fbff1b, #6e6f01);
+    box-shadow: 0px 1px 10px rgba(79, 79, 79, 0.898);
+    border-radius: 20px 0px;
+    padding: 7px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item {
+    opacity: 0;
+    transform: translateY(50px); /* Inicia a animação abaixo */
+    transition: opacity 1s ease-out, transform 0.5s ease-out;
+}
+
+.item.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
