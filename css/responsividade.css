@@ -53,13 +53,13 @@
         display: none;
     }
 
-    .textoSobre {
+    .textoInicio {
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .textoSobre .caixasTexto {
+    .textoInicio .caixasTexto {
         display: flex;
         align-items: center;
         justify-content: center;

@@ -8,13 +8,13 @@
     flex-direction: column;
 }
 
-.sobre {
+.inicio {
     position: relative;
     display: flex;
     z-index: 1;
 }
 
-.textoSobre {
+.textoInicio {
     display: flex;
     align-items: center;
     justify-content: center;

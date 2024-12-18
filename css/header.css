@@ -2,7 +2,7 @@ header {
     display: flex;
     position: fixed;
     width: 100%;
-    padding: 5px 100px;
+    padding: 1px 100px;
     background: #000000d1;
     top: 0;
     left: 0;
