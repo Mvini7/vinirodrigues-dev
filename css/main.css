@@ -8,24 +8,6 @@
     flex-direction: column;
 }
 
-header {
-    display: flex;
-    position: absolute;
-    width: 100%;
-    padding: 30px 100px;
-    top: 0;
-    left: 0;
-    align-items: center;
-    justify-content: center;
-}
-
-header img {
-    max-width: 180px;
-    margin-top: -10px;
-}
-
-
-
 .sobre {
     position: relative;
     display: flex;
