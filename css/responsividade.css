@@ -1,0 +1,69 @@
+@media screen and (max-width: 768px) {
+    header .menu {
+        display: block;
+        z-index: 1;
+        cursor: pointer;
+    }
+
+    header .menu i {
+        font-size: 40px;
+    }
+
+    header {
+        padding: 15px 30px;
+        align-items: center;
+    }
+
+    header ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        height: 600px;
+        background-color: #000000d1;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        z-index: 1;
+    }
+
+    ul li {
+        text-align: end;
+        width: 100%;
+        margin-right: 55px;
+    }
+
+    header ul li a {
+        display: block;
+        padding: 15px;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 45px;
+        transition: 0.35s;
+    }
+
+    header ul li a:hover {
+        font-size: 50px;
+    }
+
+    ul.active {
+        display: flex;
+    }
+
+    .avatar img {
+        display: none;
+    }
+
+    .textoSobre {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textoSobre .caixasTexto {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+    }
+}
