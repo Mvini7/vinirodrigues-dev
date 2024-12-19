@@ -174,4 +174,57 @@
     .skills .hard-skills .github i {
         font-size: 50px;
     }
+
+    .servicos .texto h1 {
+        font-size: 25px;
+    }
+
+    .servicos .alguns-servicos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .alguns-servicos .personalizacao, .alguns-servicos .suporte {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .alguns-servicos .desenvolvimento {
+        padding: 6px 10px;
+    }
+
+    .alguns-servicos .personalizacao {
+        padding: 12px 10px;
+    }
+
+    .alguns-servicos .suporte {
+        padding: 7px 10px;
+    }
+
+    .alguns-servicos .desenvolvimento h4 {
+        margin-top: 6px;
+    }
+
+    .alguns-servicos .desenvolvimento p {
+        margin-top: 5px;
+    }
+
+    .alguns-servicos .personalizacao h4 {
+        margin-top: 6px;
+    }
+
+    .alguns-servicos .personalizacao p {
+        margin-top: 5px;
+    }
+
+    .alguns-servicos .suporte h4 {
+        margin-top: 6px;
+    }
+
+    .alguns-servicos .suporte p {
+        margin-top: 5px;
+    }
 }
