@@ -86,11 +86,11 @@ particlesJS('particles-js',
         "events": {
           "onhover": {
             "enable": true,
-            "mode": "repulse"
+            "mode": "grab"
           },
           "onclick": {
-            "enable": true,
-            "mode": "push"
+            "enable": false,
+            "mode": ""
           },
           "resize": true
         },
@@ -106,7 +106,7 @@ particlesJS('particles-js',
             "size": 40,
             "duration": 2,
             "opacity": 8,
-            "speed": 3
+            "speed": 5
           },
           "repulse": {
             "distance": 200
