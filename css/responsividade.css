@@ -194,17 +194,14 @@
 
     .alguns-servicos .desenvolvimento {
         padding: 6px 10px;
-        transition: none;
     }
 
     .alguns-servicos .personalizacao {
         padding: 12px 10px;
-        transition: none;
     }
 
     .alguns-servicos .suporte {
         padding: 7px 10px;
-        transition: none;
     }
 
     .alguns-servicos .desenvolvimento h4 {
@@ -225,19 +222,5 @@
 
     .alguns-servicos .suporte h4 {
         margin-top: 6px;
-    }
-
-    .alguns-servicos .suporte p {
-        margin-top: 5px;
-    }
-
-    .alguns-servicos .desenvolvimento:hover {
-        margin-top: 0px;
-    }
-    .alguns-servicos .personalizacao:hover {
-        margin-top: 0px;
-    }
-    .alguns-servicos .suporte:hover {
-        margin-top: 0px;
     }
 }

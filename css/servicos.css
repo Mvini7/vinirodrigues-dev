@@ -136,17 +136,3 @@
 .personalizacao, .suporte {
     margin-left: 45px;
 }
-
-.desenvolvimento, .personalizacao, .suporte {
-    transition: 0.5s;
-}
-
-.desenvolvimento:hover {
-    margin-top: -30px;
-}
-.personalizacao:hover {
-    margin-top: -30px;
-}
-.suporte:hover {
-    margin-top: -30px;
-}
