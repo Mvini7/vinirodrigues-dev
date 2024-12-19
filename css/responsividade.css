@@ -90,19 +90,19 @@
 
     .textoSobre .sobreMim h1 {
         font-size: 30px;
-        margin-left: -185px;
+        margin-left:15px;
     }
 
     .textoSobre .sobreMim h3 {
         margin-top: 5px;
         font-size: 20px;
-        margin-left: -185px;
+        margin-left: 15px;
     }
 
     .textoSobre .sobreMim p {
         width: 400px;
         font-size: 14px;
-        margin-left: -185px;
+        margin-left: 15px;
     }
 
     .skills .soft-skills h3 {
